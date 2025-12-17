@@ -1,4 +1,7 @@
-let nome = prompt("Qual seu nome?");
-let idade = prompt("Qual sua idade?")
+const num = 1;
 
-alert("Olá, " +nome+ " você tem " +idade+ " anos");
+if (num % 2 === 0) {
+    console.log('Par')
+} else {
+    console.log('Ímpar')
+}
